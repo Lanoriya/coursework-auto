@@ -1,0 +1,109 @@
+@font-face {
+  font-family: futura;
+  src: url("../fonts/futura-pt-book.ttf");
+}
+
+@font-face {
+  font-family: futura;
+  src: url("../fonts/futura-pt-bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/RobotoCondensed-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/RobotoCondensed-Regular.ttf");
+  font-weight: regular;
+}
+
+.main-conditions {
+  height: 100%;
+}
+
+.conditions-bg {
+  position: absolute;
+  background-image: url(../imgs/bg_conditions.jpg);
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: futura, sans-serif;
+  background-color: #141414;
+  z-index: -1;
+}
+
+.root .header {
+  background-image: none;
+  height: auto;
+}
+
+.root .header::after {
+  content: none;
+}
+
+.root .footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.root .footer-text {
+  color: #e3e3e3;
+}
+
+.root main {
+  color: #e3e3e3;
+  padding-bottom: 300px;
+  margin-bottom: 0;
+}
+
+.conditions {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: futura, sans-serif;
+  color: #e3e3e3;
+}
+
+.conditions h3, .conditions h1 {
+  font-weight: normal;
+}
+
+.conditions h1 {
+  font-size: 42px;
+}
+
+.description {
+  margin-top: 44px;
+}
+
+.description h3 {
+  margin-bottom: 24px;
+  font-size: 32px;
+}
+
+.numbered-list {
+  counter-reset: my-counter;
+  max-width: 70%;
+}
+
+.numbered-list li {
+  margin-bottom: 14px;
+  font-size: 22px;
+}
+
+.numbered-list li:before {
+  counter-increment: my-counter;
+  content: counter(my-counter) ". ";
+}
+
+.footer {
+  width: 100%;
+  color: #e3e3e3;
+}

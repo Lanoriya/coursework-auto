@@ -1,0 +1,121 @@
+@media (min-width: 300px) {
+  .conditions-bg {
+    height: 75vh;
+    background-position: 50%;
+  }
+
+  .conditions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .numbered-list {
+    margin-top: 48px;
+    max-width: 100%;
+  }
+
+  .numbered-list li {
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 400px) {
+  .conditions-bg {
+    height: 65vh;
+  }
+
+  .numbered-list {
+    margin-top: 100px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 425px) {
+  .conditions-bg {
+    height: 78vh;
+  }
+}
+
+@media (min-width: 425px) {
+  .conditions-bg {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .conditions-bg {
+    height: 60vh;
+    background-position: 50%;
+  }
+
+  .numbered-list {
+    margin-top: 200px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .conditions {
+    text-align: left;
+  }
+
+  .conditions-bg {
+    height: 100vh;
+  }
+
+  .conditions h1 {
+    font-size: 42px;
+  }
+
+  .description h3 {
+    font-size: 36px;
+  }
+
+  .numbered-list li {
+    font-size: 32px;
+  }
+
+  .numbered-list {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1352px) {
+  .numbered-list {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+
+  .numbered-list li {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .conditions {
+    text-align: left;
+  }
+
+  .conditions-bg {
+    height: 100vh;
+    background-position: 50%;
+  }
+
+  .conditions h1 {
+    font-size: 42px;
+  }
+
+  .description h3 {
+    font-size: 32px;
+  }
+
+  .numbered-list li{
+    font-size: 28px;
+  }
+
+  .numbered-list {
+    margin-top: 100px;
+  }
+}

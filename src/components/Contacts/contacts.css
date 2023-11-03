@@ -1,0 +1,77 @@
+.main-contacts {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts {
+  color: #e3e3e3;
+  background-color: rgb(36, 36, 36);
+  border-radius: 8px;
+  border: 2px solid rgb(1, 1, 1);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 48px;
+  font-size: 28px;
+}
+
+.contacts-places {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contacts-numbers {
+  padding: 16px;
+}
+
+.contacts-places {
+  padding: 16px;
+}
+
+.number-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.number {
+  transition: 0.2s;
+}
+
+.number:hover {
+  opacity: 0.5;
+  color: rosybrown;
+  transition: 0.2s;
+}
+
+.address-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.post {
+  transition: 0.2s;
+}
+
+.post:hover {
+  opacity: 0.5;
+  color: rosybrown;
+  transition: 0.2s;
+}
+
+.numbers-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.yandex-box {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.yandex-map {
+  outline: 3px solid rgb(0, 0, 0);
+  border-radius: 3px;
+}

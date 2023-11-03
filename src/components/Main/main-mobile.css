@@ -1,0 +1,149 @@
+@media (min-width: 300px) and (max-width: 1023px) {
+  .modal-box input {
+    width: 100% !important;
+  }
+
+  .banner_title {
+    display: none;
+  }
+
+  .header-bg-container {
+    width: 100%; 
+    height: 700px;
+  }
+
+  .header-bg-img-style {
+    height: 700px;
+  }
+
+  .categories {
+    padding-top: 250px;
+  }
+
+  .choose_cars ul {
+    flex-direction: column;
+    gap: 24px;
+    font-size: 32px;
+  }
+
+  .carousel-item_premium img{
+    height: auto !important;
+    width: 320px !important;
+  }
+
+  .carousel-item_business img{
+    height: auto !important;
+    width: 320px !important;
+  }
+  
+  .carousel-item_sports-cars img{
+    height: auto !important;
+    width: 320px !important;
+  }
+
+  .business_descript_sum {
+    top: auto !important;
+    bottom: 16px !important;
+  }
+
+  .premium_descript_sum {
+    top: auto !important;
+    bottom: 16px !important;
+  }
+
+  .sports-cars_descript_sum {
+    top: auto !important;
+    bottom: 16px !important;
+  }
+
+  .sports-cars_descript_flex, .sports-cars_descript_down{
+    gap: 8px !important;
+    bottom: 0px !important;
+    font-size: 24px !important;
+  }
+
+  .premium_descript_flex, .premium_descript_down{
+    gap: 8px !important;
+    bottom: 0px !important;
+    font-size: 24px !important;
+  }
+
+  .business_descript_flex, .business_descript_down{
+    gap: 8px !important;
+    bottom: 0px !important;
+    font-size: 24px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header .container {
+    justify-content: space-between;
+    align-items: initial;
+  }
+
+  .logo_menu {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu ul {
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .menu_info ul {
+    gap: 32px;
+  }
+
+  .menu_info img{
+    width: 50px;
+    height: auto;
+  }
+
+  .categories {
+    padding-top: 450px;
+  }
+
+  .carousel-item_sports-cars img {
+    width: 510px !important;
+  }
+
+  .carousel-item_premium img {
+    width: 510px !important;
+  }
+
+  .carousel-item_business img {
+    width: 510px !important;
+  }
+
+  .premium_descript_down {
+    font-size: 32px !important;
+  }
+
+  .sports-cars_descript_down {
+    font-size: 32px !important;
+  }
+
+  .business_descript_down {
+    font-size: 32px !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+  .banner_title {
+    top: 180px;
+    left: 60px;
+  }
+
+  .carousel-item_sports-cars img {
+    width: 520px !important;
+  }
+
+  .carousel-item_premium img {
+    width: 520px !important;
+  }
+
+  .carousel-item_business img {
+    width: 520px !important;
+  }
+}

@@ -1,0 +1,148 @@
+@font-face {
+  font-family: futura;
+  src: url("../fonts/futura-pt-book.ttf");
+}
+
+@font-face {
+  font-family: futura;
+  src: url("../fonts/futura-pt-bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/RobotoCondensed-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/RobotoCondensed-Regular.ttf");
+  font-weight: regular;
+}
+
+.modal *{
+  font-family: futura, sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+body {
+  font-family: futura, sans-serif;
+  background-color: #141414;
+}
+
+.header {
+  padding: 25px 0;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+.logo img {
+  min-width: 110px;
+  width: 110px;
+  padding-top: 6px;
+}
+
+.logo_menu {
+  display: flex;
+}
+
+.menu {
+  margin-left: 100px;
+}
+
+.menu ul {
+  display: flex;
+  white-space: nowrap;
+  gap: 55px;
+}
+
+.menu-item a {
+  font-size: 20px;
+  transition: 0.45s;
+  color: #e3e3e3;
+}
+
+.menu-item a:hover {
+  transition: 0.25s;
+  color: #868686;
+}
+
+.menu_info {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.menu_info ul {
+  display: flex;
+  gap: 10px;
+}
+
+.menu_info img {
+  transition: 0.45s;
+  min-width: 30px;
+}
+
+.menu_info img:hover {
+  opacity: 0.35;
+  transition: 0.45s;
+}
+
+.phone a {
+  white-space: nowrap;
+  font-size: 24px;
+  transition: 0.45s;
+  color: #fff;
+}
+
+.phone a:hover {
+  transition: 0.25s;
+  color: #868686;
+}
+
+.office a {
+  white-space: nowrap;
+  font-size: 24px;
+  transition: 0.45s;
+  color: #e3e3e3;
+}
+
+.office a:hover {
+  transition: 0.25s;
+  color: #868686;
+}
+
+.banner_title {
+  position: absolute;
+  font-size: 78px;
+  color: #faf8f8;
+  width: 720px;
+  top: 140px;
+  left: 180px;
+  pointer-events: none;
+  z-index: 2;
+  font-weight: normal;
+}
+
+.banner_title-red {
+  background: linear-gradient(270deg, rgb(123, 0, 0) 1%, rgb(84, 0, 0) 62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 724px;
+}

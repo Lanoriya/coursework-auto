@@ -1,0 +1,104 @@
+.carousel-item_premium {
+  position: relative;
+  overflow: hidden;
+  border: #3d3d3d 3px solid;
+  box-shadow:0 0 30px rgb(0, 0, 0);
+}
+
+.carousel-item_premium img {
+  opacity: 0.9;
+  transition: .4s;
+  z-index: 0;
+  width: 500px;
+  height: 100%;
+}
+
+.carousel-item_premium a:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(0deg,rgba(0,0,0,.7) 0,rgba(255,255,255, 0) 100%);
+  opacity: 0;
+  transition: all .2s linear;
+  z-index: 2;
+}
+
+.carousel-item_premium a:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+
+.carousel-item_premium a:hover:after{
+  opacity: 1;
+}
+
+.carousel-item_premium a:hover > .premium_descript_flex {
+  opacity: 1;
+}
+
+.carousel-item_premium a:hover > img {
+  transition: .4s;
+  transform: scale(1.1);
+}
+
+.carousel-item_premium:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(180deg,rgba(15, 0, 0, 0.8) 0,rgba(0,0,0,0) 80%);
+  pointer-events: none;
+  z-index: 3;
+}
+
+.premium_descript {
+  position: absolute;
+  pointer-events: none;
+  top: 20px;
+  left: 30px;
+  color: #780000;
+  background: linear-gradient(270deg, rgb(33, 33, 33) 21%, rgb(210, 0, 0) 122%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+  z-index: 1;
+}
+
+.premium_descript_sum {
+  position: absolute;
+  pointer-events: none;
+  top: 70px;
+  left: 30px;
+  color: #780000;
+  background: linear-gradient(270deg, rgb(33, 33, 33) 21%, rgb(210, 0, 0) 122%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+
+.premium_descript_flex {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: 6px;
+  right: 12px;
+  z-index: 3;
+  transition: all .3s;
+  opacity: 0;
+}
+
+.premium_descript_down {
+  color: #780000;
+  background: #e3e3e3;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+}
